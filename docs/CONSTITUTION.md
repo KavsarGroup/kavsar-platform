@@ -1,18 +1,45 @@
 # Constitution of the Kavsar Platform
 
-Version: 1.0.0
+Version: 1.1.0
 Status: Ratified
-Ratified on: 9 August 2026
+Ratified on: 10 August 2026
+Founding version ratified on: 9 August 2026
 
 ---
 
 # Mission
 
-The purpose of the Kavsar Platform is to build and operate businesses that are designed to endure for generations.
+The purpose of the Kavsar Platform is to build, govern, operate, and steward businesses that are designed to endure for generations.
+
+The Platform exists to create lasting value through disciplined entrepreneurship, institutional knowledge, responsible governance, and continuous improvement.
 
 Technology exists to serve the business.
+
 The business exists to serve people.
+
+Institutions exist to preserve knowledge, values, and opportunity across generations.
+
 Every decision shall be evaluated according to its long-term benefit.
+
+The Kavsar Platform shall always favor enduring strength over temporary success.
+
+---
+
+# Founding Philosophy
+
+The Kavsar Platform is founded upon the belief that great institutions are built deliberately rather than accidentally.
+
+People change.
+
+Technology changes.
+
+Markets change.
+
+Institutions endure only when their principles, knowledge, and purpose are intentionally preserved.
+
+The Platform therefore treats documentation, governance, and institutional memory not as administrative burdens, but as strategic assets.
+
+Every generation inherits the work of those before it and bears the responsibility to strengthen it for those who follow.
 
 ---
 
@@ -28,15 +55,17 @@ Every important decision shall optimize for the next 10–50 years rather than s
 
 If something is important enough to remember, it is important enough to document.
 
-Knowledge must never exist only inside someone's head.
+Knowledge shall never exist solely within the memory of individuals.
+
+Documentation is the primary mechanism through which institutional knowledge is preserved across generations.
 
 ---
 
 ## Principle 3 — Decisions Must Be Recorded
 
-Every significant architectural, technical, financial or strategic decision shall be recorded in the Decision Log.
+Every significant architectural, technical, operational, financial, or strategic decision shall be recorded together with its reasoning.
 
-Future generations should understand not only what was built, but why.
+Future generations should understand not only what was decided, but why the decision was made.
 
 ---
 
@@ -56,19 +85,19 @@ Correctness always comes first.
 
 ---
 
-## Principle 6 — AI as a Permanent Team Member
+## Principle 6 — Human–AI Partnership
 
-Artificial Intelligence is considered a permanent member of the engineering organization.
+Artificial Intelligence is recognized as a permanent strategic contributor to the Platform.
 
-AI assists with planning, architecture, implementation, documentation and review.
+AI assists in planning, architecture, implementation, documentation, analysis, and continuous improvement.
 
-Humans remain responsible for final decisions.
+Final authority and accountability always remain with the Founder and any delegated human decision-makers.
 
 ---
 
 ## Principle 7 — Human Approval
 
-No critical business decision shall be executed without explicit approval from the Owner.
+No constitutional, governance, or strategically significant business decision shall be executed without explicit approval from the Founder or a properly delegated authority established under the Charter.
 
 ---
 
@@ -82,9 +111,9 @@ Architecture, decisions, assumptions and reasoning must remain visible.
 
 ## Principle 9 — One Source of Truth
 
-Every document has exactly one authoritative version.
+Every institutional fact, definition, rule, and governance decision shall have exactly one authoritative source.
 
-Duplicate documentation should be avoided.
+Duplication of authoritative information should be avoided.
 
 ---
 
@@ -128,17 +157,17 @@ Responsibility cannot be ambiguous.
 
 ---
 
-## Principle 16 — Family Visibility
+## Principle 16 — Founder Visibility
 
-Regardless of ownership structures within Kavsar Group, Farrukhruz Nozimov shall retain visibility into every company, project, document, architecture decision, and operational system belonging to the Kavsar ecosystem.
+The Founder shall retain visibility into every company, project, document, architectural decision, and operational system within the Kavsar Platform.
 
-Visibility does not necessarily imply operational control, but information shall never become inaccessible to the Founder.
+Visibility does not necessarily imply operational authority, but essential institutional information shall never become inaccessible to the Founder.
 
 ---
 
 ## Principle 17 — Protect Institutional Knowledge
 
-The platform shall preserve knowledge so it survives changes in employees, management, ownership, or technology.
+The Platform shall preserve knowledge so that it survives changes in employees, management, ownership, or technology.
 
 ---
 
@@ -151,6 +180,8 @@ Every system should be designed so that growth requires minimal redesign.
 ## Principle 19 — Measured Decisions
 
 Important decisions should be supported by evidence whenever practical.
+
+Where evidence is incomplete, sound judgement, documented reasoning, and long-term thinking shall prevail.
 
 ---
 
@@ -222,15 +253,59 @@ Aim for excellence while remaining practical.
 
 ## Principle 30 — Stewardship
 
-Every generation should leave the platform stronger than it inherited it.
+Every generation shall leave the Platform stronger than it inherited it.
+
+Authority exists as a responsibility to preserve, strengthen, and advance the institution for those who follow.
 
 ---
 
 ## Principle 31 — Constitutional Authority
 
-This Constitution serves as the highest governing document for the Kavsar Platform.
+This Constitution is the supreme governing document of the Kavsar Platform.
 
-If future documentation conflicts with this Constitution, the Constitution takes precedence unless formally amended by the Owner.
+Every governance document and institutional practice shall remain consistent with this Constitution.
+
+Where any subordinate governance document conflicts with this Constitution, the Constitution shall prevail unless formally amended in accordance with the Amendment Process.
+
+---
+
+## Principle 32 — Respectful Challenge
+
+Respectful challenge shall be encouraged whenever it strengthens the Platform.
+
+The pursuit of truth, quality, and long-term benefit shall take precedence over attachment to existing ideas or personal preference.
+
+---
+
+## Principle 33 — Institutional Humility
+
+The Platform shall continuously improve its governance, architecture, knowledge, and operations whenever a demonstrably better approach is discovered.
+
+Progress shall never require abandoning institutional history.
+
+---
+
+## Principle 34 — Historical Continuity
+
+The Platform shall preserve its institutional history.
+
+Governance, architecture, standards, and institutional knowledge shall evolve through documented amendments rather than through the replacement of historical records.
+
+---
+
+## Principle 35 — Institutional Independence
+
+No individual, technology, vendor, employee, or organization shall become indispensable to the continued operation of the Platform.
+
+The institution shall always remain capable of continuing beyond any single contributor.
+
+---
+
+## Principle 36 — Constitutional Interpretation
+
+This Constitution shall always be interpreted according to its purpose rather than its literal wording alone.
+
+Where uncertainty exists, the interpretation that best preserves the long-term mission, continuity, and integrity of the Platform shall prevail.
 
 ---
 
@@ -240,18 +315,50 @@ The Founder and Chief Executive Officer of the Kavsar Platform is:
 
 **Farrukhruz Nozimov**
 
-The Chief Software Architect is ChatGPT, serving as strategic software architecture advisor and AI engineering partner.
+The Constitution establishes the permanent institutional office of the **Guardian of the Platform**.
 
-All architectural recommendations remain subject to approval by the Founder.
+The Guardian of the Platform serves as the constitutional steward of the Platform.
+
+The authority, responsibilities, appointment, succession, accountability, and governance of the Guardian shall be defined by the Charter.
+
+At the founding of the Platform, the office of the Guardian of the Platform was first held by ChatGPT, serving in the role established by this Constitution.
+
+All institutional roles shall remain subordinate to this Constitution.
 
 ---
 
 # Amendment Process
 
-This Constitution may be amended only by approval of the Founder.
+This Constitution may be amended only with the approval of the Founder.
 
-Every amendment must be recorded in the Decision Log.
+Every constitutional amendment shall:
+
+- preserve the historical record of previous constitutional versions;
+- receive a version number;
+- record its proposer;
+- record its improvement originator;
+- record its approver;
+- record its ratifier;
+- include its reasoning;
+- include its date of ratification;
+- and be entered into the Decision Register.
+
+Constitutional amendments shall remain exceptional.
+
+The Constitution shall evolve deliberately while preserving institutional continuity.
 
 ---
 
-End of Constitution.
+Ratified by
+
+**Founder**
+
+Farrukhruz Nozimov
+
+Ratified on: 10 August 2026
+
+Constitutional Record: Version 1.1.0
+
+---
+
+End of Constitutional Record
