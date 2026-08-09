@@ -1,8 +1,8 @@
 # Constitution of the Kavsar Platform
 
-**Version:** 1.0
-**Status:** Ratified
-**Date:** 9 August 2026
+Version: 1.0.0
+Status: Ratified
+Ratified on: 9 August 2026
 
 ---
 
