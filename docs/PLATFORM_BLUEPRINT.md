@@ -1,7 +1,7 @@
 # Platform Blueprint
 
-Version: 1.0.0
-Status: Draft
+Version: 1.1.0
+Status: Reviewed Draft
 Created on: 10 August 2026
 
 ---
@@ -20,7 +20,7 @@ It describes the destination of the Platform without prescribing specific techni
 
 # 2. Platform Definition
 
-The Kavsar Platform is a modular business operating platform designed to build, govern, operate, and scale enduring businesses.
+The Kavsar Platform is an institutional business operating platform designed to build, govern, operate, and scale enduring businesses.
 
 The Platform provides a common institutional foundation upon which multiple companies, brands, industries, and future ventures may operate while sharing governance, knowledge, operational capabilities, and technological infrastructure.
 
@@ -119,6 +119,8 @@ The eight Platform Pillars are:
 7. Extensibility
 8. Platform
 
+Platform Engines operate across multiple Platform Pillars and therefore are not themselves architectural pillars.
+
 ---
 
 # 5. Platform Architecture
@@ -162,8 +164,8 @@ The Platform Core initially consists of the following capability domains:
 - Locations
 - Users
 - Roles & Permissions
-- Customers
-- Suppliers
+- People
+- Organizations
 - Products
 - Inventory
 - Purchasing
@@ -234,25 +236,25 @@ The Business Engine shall remain independent of any specific industry.
 
 Its purpose is to provide standardized operational frameworks that may be extended by Industry Modules.
 
-The Business Engine initially consists of the following operational domains:
+The Business Engine initially consists of the following business capabilities:
 
-- Customer Lifecycle
-- Supplier Lifecycle
-- Product Lifecycle
-- Inventory Lifecycle
-- Purchasing Lifecycle
-- Sales Lifecycle
-- Financial Lifecycle
-- Workforce Lifecycle
-- Document Lifecycle
-- Approval Lifecycle
-- Task Lifecycle
-- Knowledge Lifecycle
-- Reporting Lifecycle
-- Automation Lifecycle
-- Artificial Intelligence Lifecycle
+- Customer Management
+- Supplier Management
+- Product Management
+- Inventory Management
+- Purchasing
+- Sales
+- Finance
+- Workforce Management
+- Document Management
+- Approvals
+- Task Management
+- Knowledge Management
+- Reporting
+- Automation
+- Artificial Intelligence
 
-Each lifecycle represents a reusable business process that may be specialized by individual Industry Modules without replacing the underlying business logic.
+Each business capability represents a reusable operational capability that may be specialized by individual Industry Modules while continuing to utilize the common Platform Core and Lifecycle Engine where appropriate.
 
 ---
 
@@ -631,6 +633,8 @@ Automation may include:
 Critical business actions shall require appropriate authorization.
 
 The Platform shall minimize administrative effort while maximizing organizational clarity.
+
+Whenever practical, automated actions shall remain transparent to authorized users. The Platform shall clearly indicate when an action has been performed automatically, why it occurred, and how it may be reviewed or adjusted where appropriate.
 
 Users should not be required to record information that provides no lasting operational or institutional value.
 
@@ -1048,7 +1052,7 @@ Business events shall contribute to institutional knowledge, auditability, repor
 
 The Event Bus is the internal communication mechanism of the Platform.
 
-Platform capabilities should communicate through the Event Bus wherever practical rather than through direct dependency upon one another.
+Platform capabilities shall communicate through the Event Bus wherever practical rather than through direct dependency upon one another.
 
 Each Platform capability may publish meaningful business events and subscribe to events relevant to its responsibilities.
 
