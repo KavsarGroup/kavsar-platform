@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "status": "approved",
+  "last_updated": "2026-08-13",
+  "backend": {
+    "dotnet": "10",
+    "csharp": "14",
+    "aspnet_core": "10"
+  },
+  "persistence": {
+    "postgresql": "18",
+    "entity_framework_core": "10",
+    "npgsql": "10"
+  },
+  "frontend": {
+    "react": "current-approved-stable",
+    "typescript": "current-approved-stable",
+    "vite": "current-approved-stable"
+  },
+  "testing": {
+    "xunit": "3",
+    "testcontainers": "current-approved-stable"
+  },
+  "delivery": {
+    "github_actions": "current-approved-stable"
+  },
+  "observability": {
+    "opentelemetry": "current-approved-stable"
+  }
+}

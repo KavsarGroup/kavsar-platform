@@ -1,7 +1,7 @@
 # ADR-007 — Platform Services
 
 Version: 1.0.0  
-Status: Proposed  
+Status: Approved  
 Created on: 13 August 2026
 
 ---
@@ -14,7 +14,7 @@ Platform Services
 
 # 2. Status
 
-Proposed
+Approved
 
 ---
 

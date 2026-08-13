@@ -1,7 +1,7 @@
 # ADR-008 — Institutional Identity
 
 Version: 1.0.0  
-Status: Proposed  
+Status: Approved  
 Created on: 13 August 2026
 
 ---
@@ -14,7 +14,7 @@ Institutional Identity
 
 # 2. Status
 
-Proposed
+Approved
 
 ---
 

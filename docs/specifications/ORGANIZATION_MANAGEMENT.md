@@ -1,7 +1,7 @@
 # Organization Management Specification
 
 Version: 0.1.0
-Status: Draft
+Status: Approved for M1
 Created on: 13 August 2026
 
 ---
@@ -388,6 +388,60 @@ Typical organizational lifecycle states may include:
 - Reorganized
 - Retired
 
+## M1 Lifecycle Rules
+
+The first production implementation shall support the following exact lifecycle rules for Tenant and Company.
+
+### Tenant
+
+Permitted initial states:
+
+- Draft
+- Active
+
+Permitted transitions:
+
+- Draft → Active
+- Draft → Archived
+- Active → Archived
+
+`Archived` is terminal within M1.
+
+A Tenant may be created directly as Active where the Tenant already exists in business reality and the creating authority is permitted to do so.
+
+Archiving a Tenant shall preserve all institutional data, history, relationships, and references.
+
+Suspension and restoration are outside the scope of M1.
+
+### Company
+
+Permitted initial states:
+
+- Planned
+- Active
+
+Permitted transitions:
+
+- Planned → Active
+- Planned → Archived
+- Active → Archived
+
+`Archived` is terminal within M1.
+
+A Company may be created directly as Active where the Company already exists in business reality and the creating authority is permitted to do so.
+
+Archiving a Company shall not be interpreted as legal dissolution unless a future Company lifecycle explicitly records dissolution.
+
+Suspension, dissolution, and restoration are outside the scope of M1.
+
+### Lifecycle Execution
+
+Lifecycle transitions shall occur only through the owning capability's Platform Services.
+
+A lifecycle transition shall either complete together with its required audit record, lifecycle history, and Institutional Events, or fail without partially applying the transition.
+
+Authorized correction or override mechanisms may be introduced later through governed Platform capabilities and shall not be implemented implicitly in M1.
+
 Organizational entities shall not be permanently deleted where doing so would compromise institutional knowledge, historical continuity, financial integrity, legal obligations, or auditability.
 
 Lifecycle transitions shall preserve historical organizational structures, reporting relationships, permissions history, and institutional knowledge.
@@ -409,6 +463,8 @@ All organizational business logic shall be executed through Platform Services.
 User interfaces, APIs, automation, Platform Intelligence, and external integrations shall invoke Platform Services rather than implementing organizational business logic independently.
 
 The Organization Management capability shall initially provide, where appropriate, services including:
+
+The first production implementation may implement only the subset of these Platform Services explicitly included within the approved M1 scope.
 
 ## Tenant Services
 
@@ -625,7 +681,7 @@ Every organizational entity shall possess, where applicable:
 - Organizational Relationships
 - Creation Information
 - Last Modification Information
-- Audit History
+- Audit Reference
 
 Organizational entities may additionally possess:
 

@@ -1,7 +1,7 @@
 # Membership Management Specification
 
 Version: 0.1.0
-Status: Draft
+Status: Approved for M1
 Created on: 13 August 2026
 
 ---
@@ -299,6 +299,47 @@ The core Membership lifecycle states are:
 - Archived
 
 Future Membership lifecycle states, including suspension, expiration, reinstatement, and renewal, may be introduced through governed extensions where business requirements justify them.
+
+## M1 Lifecycle Rules
+
+Permitted initial states:
+
+- Draft
+- Active
+
+Permitted transitions:
+
+- Draft → Active
+- Draft → Archived
+- Active → Ended
+- Active → Archived
+- Ended → Archived
+
+`Archived` is terminal within M1.
+
+A Membership may be created directly as Active where organizational participation already exists in business reality and the creating authority is permitted to do so.
+
+`Ended` represents participation that has concluded.
+
+`Archived` represents historical retention and shall not erase, replace, or rewrite the Membership's previous lifecycle or effective-period history.
+
+Transition from Ended to Archived is optional rather than mandatory.
+
+An Active Membership shall have an Effective Date that is not later than the current effective time.
+
+A Draft Membership may possess a future Effective Date.
+
+An End Date shall not precede the Effective Date.
+
+Ending a Membership shall establish an End Date where one has not already been established.
+
+Reaching an End Date shall not silently modify historical records. Reaching an End Date does not automatically modify historical records.
+
+Any resulting lifecycle transition shall occur through the owning Platform Service and shall be recorded explicitly.
+
+A Membership shall not be treated as institutionally active outside its effective period even if its stored lifecycle state has not yet been reconciled.
+
+Suspension, expiration, reinstatement, renewal, and transfer are outside the scope of M1.
 
 Organizational Memberships shall not be permanently deleted where doing so would compromise institutional knowledge, historical continuity, auditability, reporting, legal obligations, or organizational understanding.
 

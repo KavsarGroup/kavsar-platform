@@ -1,7 +1,7 @@
 # ADR-003 — Identity & Bootstrap
 
 Version: 1.0.0  
-Status: Proposed  
+Status: Approved  
 Created on: 13 August 2026
 
 ---
@@ -14,7 +14,7 @@ Identity & Bootstrap
 
 # 2. Status
 
-Proposed
+Approved
 
 ---
 

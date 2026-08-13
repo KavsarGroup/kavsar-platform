@@ -1,7 +1,7 @@
 # ADR-001 — Repository & Solution Architecture
 
 Version: 1.0.0  
-Status: Proposed  
+Status: Approved  
 Created on: 13 August 2026
 
 ---
@@ -14,7 +14,7 @@ Repository & Solution Architecture
 
 # 2. Status
 
-Proposed
+Approved
 
 ---
 

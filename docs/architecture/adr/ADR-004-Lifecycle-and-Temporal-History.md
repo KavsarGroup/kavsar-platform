@@ -1,7 +1,7 @@
 # ADR-004 — Lifecycle & Temporal History
 
 Version: 1.0.0  
-Status: Proposed  
+Status: Approved  
 Created on: 13 August 2026
 
 ---
@@ -14,7 +14,7 @@ Lifecycle & Temporal History
 
 # 2. Status
 
-Proposed
+Approved
 
 ---
 
@@ -35,6 +35,12 @@ Different Platform capabilities shall define their own business-specific lifecyc
 Every first-class institutional object shall possess its own lifecycle.
 
 Lifecycle ownership belongs exclusively to the Platform capability that owns the institutional object.
+
+The Platform Lifecycle Engine provides common lifecycle infrastructure.
+
+Each Platform capability defines and owns its own lifecycle semantics, states, transition rules, validation, and business meaning.
+
+The Platform Lifecycle Engine shall execute lifecycle transitions without owning lifecycle semantics.
 
 Lifecycle transitions shall occur only through approved Platform Services.
 

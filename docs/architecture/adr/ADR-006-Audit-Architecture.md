@@ -1,7 +1,7 @@
 # ADR-006 — Audit Architecture
 
 Version: 1.0.0  
-Status: Proposed  
+Status: Approved  
 Created on: 13 August 2026
 
 ---
@@ -14,7 +14,7 @@ Audit Architecture
 
 # 2. Status
 
-Proposed
+Approved
 
 ---
 
