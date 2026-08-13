@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Kavsar.Host/Kavsar.Host.csproj" />
+    <Project Path="src/Kavsar.Modules.Audit/Kavsar.Modules.Audit.csproj" />
+    <Project Path="src/Kavsar.Modules.Membership/Kavsar.Modules.Membership.csproj" />
+    <Project Path="src/Kavsar.Modules.Organization/Kavsar.Modules.Organization.csproj" />
+    <Project Path="src/Kavsar.Platform/Kavsar.Platform.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Kavsar.ArchitectureTests/Kavsar.ArchitectureTests.csproj" />
+    <Project Path="tests/Kavsar.IntegrationTests/Kavsar.IntegrationTests.csproj" />
+    <Project Path="tests/Kavsar.UnitTests/Kavsar.UnitTests.csproj" />
+  </Folder>
+</Solution>

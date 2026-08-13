@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="../Kavsar.Platform/Kavsar.Platform.csproj" />
+    <ProjectReference Include="../Kavsar.Modules.Organization/Kavsar.Modules.Organization.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="../Kavsar.Platform/Kavsar.Platform.csproj" />
+    <ProjectReference Include="../Kavsar.Modules.Organization/Kavsar.Modules.Organization.csproj" />
+    <ProjectReference Include="../Kavsar.Modules.Membership/Kavsar.Modules.Membership.csproj" />
+    <ProjectReference Include="../Kavsar.Modules.Audit/Kavsar.Modules.Audit.csproj" />
+  </ItemGroup>
+
+</Project>

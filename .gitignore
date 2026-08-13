@@ -6,3 +6,10 @@
 
 # Logs
 *.log
+
+# .NET build outputs
+**/bin/
+**/obj/
+
+# Test results
+**/TestResults/

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TestingPlatformDotnetTestSupport>true</TestingPlatformDotnetTestSupport>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit.v3" Version="3.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/Kavsar.Platform/Kavsar.Platform.csproj" />
+    <ProjectReference Include="../../src/Kavsar.Modules.Organization/Kavsar.Modules.Organization.csproj" />
+    <ProjectReference Include="../../src/Kavsar.Modules.Membership/Kavsar.Modules.Membership.csproj" />
+    <ProjectReference Include="../../src/Kavsar.Modules.Audit/Kavsar.Modules.Audit.csproj" />
+    <ProjectReference Include="../../src/Kavsar.Host/Kavsar.Host.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>
